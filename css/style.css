@@ -1,0 +1,33 @@
+body{
+ background-color: rgb(251,251,251);
+}
+.out-of{
+  text-align: center;
+  font-size: 12px;
+  top: 0;
+  left: 0;
+  background-color: red;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+}
+.out-of-stock{
+  color:#fff;
+}
+.fa-star{
+  color: rgb(180, 180, 180) !important;
+}
+.y-star{
+  color: rgba(240, 240, 11, 0.726) !important;
+}
+h4{
+  white-space: nowrap; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+h4:hover{
+  overflow: visible; 
+  white-space: normal; 
+}
